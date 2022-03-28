@@ -3,14 +3,14 @@
 #include "lista.c"
 
 int main(){
-	
+
 	Graph H;
 	vertex v, w, A, V;
 
 	printf("Qtd de Vertices: ");
 	scanf("%d", &V);
 	H = GRAPHinit(V);
-	
+
 	printf("Qtd de Arcos: ");
 	scanf("%d", &A);
 	for (int i = 0; i < A; i++){
